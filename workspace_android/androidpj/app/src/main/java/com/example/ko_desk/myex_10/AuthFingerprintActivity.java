@@ -1,4 +1,4 @@
-package com.example.finger;
+package com.example.ko_desk.myex_10;
 
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +22,7 @@ public class AuthFingerprintActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_auth_fingerprint );
+        setContentView(R.layout.activity_signin);
 
 
         executor = ContextCompat.getMainExecutor(this);
@@ -63,7 +63,7 @@ public class AuthFingerprintActivity extends AppCompatActivity {
 
         //  사용자가 다른 인증을 이용하길 원할 때 추가하기
 
-        Button biometricLoginButton = findViewById(R.id.buttonAuthWithFingerprint);
+        Button biometricLoginButton = findViewById(R.id.btn_signin_finger);
         biometricLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

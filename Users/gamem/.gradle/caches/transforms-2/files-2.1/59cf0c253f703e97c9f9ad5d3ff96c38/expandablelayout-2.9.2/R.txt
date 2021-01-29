@@ -1,8 +1,0 @@
-int attr el_duration 0x7f010000
-int attr el_expanded 0x7f010001
-int attr el_parallax 0x7f010002
-int[] styleable ExpandableLayout { 0x010100c4, 0x7f010000, 0x7f010001, 0x7f010002 }
-int styleable ExpandableLayout_android_orientation 0
-int styleable ExpandableLayout_el_duration 1
-int styleable ExpandableLayout_el_expanded 2
-int styleable ExpandableLayout_el_parallax 3
